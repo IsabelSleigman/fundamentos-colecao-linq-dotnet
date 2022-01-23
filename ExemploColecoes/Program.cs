@@ -1,20 +1,64 @@
-﻿using ExemploColecoes.Helper;
+﻿
 
-OperacoesArray op = new OperacoesArray();
 
-int[] array = new int[5] { 6, 3, 8, 1, 9 };
-int[] arrayCopia = new int[10];
 
-int valorProcurado = 1;
-bool existe = op.Existe(array, valorProcurado);
+// Dictionary<string, string> estados = new Dictionary<string, string>{{"PR" , "Parana"}, {"MG" , "Minas Gerais"}};
 
-if(existe)
-{
-    System.Console.WriteLine($"Valor {valorProcurado} existe");
-}
-else{
-    System.Console.WriteLine($"Valor {valorProcurado} não existe");
-}
+// estados.Add("SP", "São Paulo");
+
+// // foreach (KeyValuePair<string, string> item in estados)
+// // {
+// //     System.Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// // }
+
+// var valorProcurado = "SP";
+
+// if(estados.TryGetValue(valorProcurado, out string estadoEncontrado))
+// {
+//     System.Console.WriteLine(estadoEncontrado);
+// }
+
+// System.Console.WriteLine(estados[valorProcurado]);
+
+// estados[valorProcurado] = "teste Atualização";
+
+//estados.Remove(valorProcurado);
+
+// using ExemploColecoes.Helper;
+
+// OperacoesLista opLista = new OperacoesLista();
+// List<string> estados = new List<string>{"SP", "MG", "BH"};
+// string[] estadosArray = new string[2]{"SC", "Mt"};
+// System.Console.WriteLine($"Quantidade de elentendo na lista {estados.Count}");
+
+// //estados.AddRange(estadosArray);
+
+// estados.Insert(1, "RJ");
+
+// var removeu = estados.Remove("BH");
+
+// if(removeu)
+// {
+//     opLista.ImprimirLista(estados);
+// }
+
+// using ExemploColecoes.Helper;
+
+// OperacoesArray op = new OperacoesArray();
+
+// int[] array = new int[5] { 6, 3, 8, 1, 9 };
+// int[] arrayCopia = new int[10];
+
+// int valorProcurado = 1;
+// bool existe = op.Existe(array, valorProcurado);
+
+// if(existe)
+// {
+//     System.Console.WriteLine($"Valor {valorProcurado} existe");
+// }
+// else{
+//     System.Console.WriteLine($"Valor {valorProcurado} não existe");
+// }
 
 // System.Console.WriteLine("Array antes da copia");
 // op.ImprimirArray(array);
