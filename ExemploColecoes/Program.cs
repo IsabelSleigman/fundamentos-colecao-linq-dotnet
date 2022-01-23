@@ -1,5 +1,21 @@
 ﻿
+int[] arrayNumeros = new int[7] {100, 6, 3, 0, 8, 1, 9 };
 
+var min = arrayNumeros.Min();
+var max = arrayNumeros.Max();
+//Pegar media dos numeros ACHEI LINDÃO
+var medio = arrayNumeros.Average();
+var soma = arrayNumeros.Sum();
+var distintos = arrayNumeros.Distinct().ToArray();
+
+
+// var resultado1 = 
+//         from num in arrayNumeros
+//         where num % 2 == 0
+//         orderby num
+//         select num;
+
+// var resultado2 = arrayNumeros.Where(n => n % 2 == 0).OrderBy(x => x).ToList();
 
 
 // Dictionary<string, string> estados = new Dictionary<string, string>{{"PR" , "Parana"}, {"MG" , "Minas Gerais"}};
